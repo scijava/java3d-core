@@ -64,6 +64,9 @@
 		<!-- NB: Avoid platform encoding warning when copying resources. -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+		<!-- Deploy to OSS Sonatype repository by default when releasing. -->
+		<releaseProfiles>sonatype-oss-release</releaseProfiles>
 	</properties>
 
 	<dependencies>
