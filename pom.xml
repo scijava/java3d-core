@@ -120,11 +120,12 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.9.1</version>
+				<version>3.1.1</version>
 				<configuration>
 					<javadocDirectory>${project.basedir}/src</javadocDirectory>
+					<doclint>none</doclint>
 					<links>
-						<link>http://docs.oracle.com/javase/7/docs/api/</link>
+						<link>https://javadoc.scijava.org/Java7/</link>
 					</links>
 				</configuration>
 			</plugin>
